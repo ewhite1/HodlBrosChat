@@ -18,5 +18,6 @@ Yes, I know that talking about decentralized services web on a centralized servi
 - send certain crypto to other users wallets(needs more research)
 
  ### Other notes
- None..for now
+ You must import your own Firebase settings(Google-Service.plist) for
+ this to compile. Mine are removed for security reasons. 
  
