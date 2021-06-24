@@ -1,0 +1,6 @@
+framework module Pods_HodlBrosChatTests {
+  umbrella header "Pods-HodlBrosChatTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

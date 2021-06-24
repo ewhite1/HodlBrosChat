@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B67972626842A76001A18FD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B67972526842A76001A18FD /* LoginView.swift */; };
+		2B67972826842C62001A18FD /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B67972726842C62001A18FD /* RegistrationView.swift */; };
+		2B67972A26842CC5001A18FD /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B67972926842CC5001A18FD /* CustomTextField.swift */; };
+		2B67972C26842EE7001A18FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B67972B26842EE7001A18FD /* GoogleService-Info.plist */; };
+		2BE1B08D267FED770034C245 /* HodlBrosChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1B08C267FED770034C245 /* HodlBrosChatApp.swift */; };
+		2BE1B08F267FED770034C245 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1B08E267FED770034C245 /* ContentView.swift */; };
+		2BE1B091267FED7B0034C245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE1B090267FED7B0034C245 /* Assets.xcassets */; };
+		2BE1B094267FED7B0034C245 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE1B093267FED7B0034C245 /* Preview Assets.xcassets */; };
+		2BE1B09F267FED7B0034C245 /* HodlBrosChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1B09E267FED7B0034C245 /* HodlBrosChatTests.swift */; };
+		2BE1B0AA267FED7B0034C245 /* HodlBrosChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1B0A9267FED7B0034C245 /* HodlBrosChatUITests.swift */; };
+		95955D9FCED8A087A5B447BA /* Pods_HodlBrosChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D45871BBAA5CF8D52549AC /* Pods_HodlBrosChat.framework */; };
+		AEC15000AC19928CB4A0A76D /* Pods_HodlBrosChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A661EF3A57BCEC2D84E95CC9 /* Pods_HodlBrosChatTests.framework */; };
+		EB00FCC288E099E802C7351E /* Pods_HodlBrosChat_HodlBrosChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B3782AB50E23A2935DB2E6 /* Pods_HodlBrosChat_HodlBrosChatUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BE1B09B267FED7B0034C245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BE1B081267FED770034C245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE1B088267FED770034C245;
+			remoteInfo = HodlBrosChat;
+		};
+		2BE1B0A6267FED7B0034C245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BE1B081267FED770034C245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE1B088267FED770034C245;
+			remoteInfo = HodlBrosChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		100F4EE53874D9DCA0761A99 /* Pods-HodlBrosChat-HodlBrosChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HodlBrosChat-HodlBrosChatUITests.release.xcconfig"; path = "Target Support Files/Pods-HodlBrosChat-HodlBrosChatUITests/Pods-HodlBrosChat-HodlBrosChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		17D45871BBAA5CF8D52549AC /* Pods_HodlBrosChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HodlBrosChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B67972526842A76001A18FD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2B67972726842C62001A18FD /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		2B67972926842CC5001A18FD /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		2B67972B26842EE7001A18FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2BE1B089267FED770034C245 /* HodlBrosChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HodlBrosChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE1B08C267FED770034C245 /* HodlBrosChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HodlBrosChatApp.swift; sourceTree = "<group>"; };
+		2BE1B08E267FED770034C245 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BE1B090267FED7B0034C245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BE1B093267FED7B0034C245 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BE1B095267FED7B0034C245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE1B09A267FED7B0034C245 /* HodlBrosChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HodlBrosChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE1B09E267FED7B0034C245 /* HodlBrosChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HodlBrosChatTests.swift; sourceTree = "<group>"; };
+		2BE1B0A0267FED7B0034C245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE1B0A5267FED7B0034C245 /* HodlBrosChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HodlBrosChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE1B0A9267FED7B0034C245 /* HodlBrosChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HodlBrosChatUITests.swift; sourceTree = "<group>"; };
+		2BE1B0AB267FED7B0034C245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4411D4007C1525B2C9F241 /* Pods-HodlBrosChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HodlBrosChat.debug.xcconfig"; path = "Target Support Files/Pods-HodlBrosChat/Pods-HodlBrosChat.debug.xcconfig"; sourceTree = "<group>"; };
+		74B3782AB50E23A2935DB2E6 /* Pods_HodlBrosChat_HodlBrosChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HodlBrosChat_HodlBrosChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A661EF3A57BCEC2D84E95CC9 /* Pods_HodlBrosChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HodlBrosChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A889CC88EABF606C6C94FEF6 /* Pods-HodlBrosChat-HodlBrosChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HodlBrosChat-HodlBrosChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-HodlBrosChat-HodlBrosChatUITests/Pods-HodlBrosChat-HodlBrosChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE5DA2AD67445A20F5B6110C /* Pods-HodlBrosChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HodlBrosChat.release.xcconfig"; path = "Target Support Files/Pods-HodlBrosChat/Pods-HodlBrosChat.release.xcconfig"; sourceTree = "<group>"; };
+		CA38E5604015943973E9F9FB /* Pods-HodlBrosChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HodlBrosChatTests.debug.xcconfig"; path = "Target Support Files/Pods-HodlBrosChatTests/Pods-HodlBrosChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7AC27B8FF77919E8AEC9D56 /* Pods-HodlBrosChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HodlBrosChatTests.release.xcconfig"; path = "Target Support Files/Pods-HodlBrosChatTests/Pods-HodlBrosChatTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE1B086267FED770034C245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95955D9FCED8A087A5B447BA /* Pods_HodlBrosChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE1B097267FED7B0034C245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC15000AC19928CB4A0A76D /* Pods_HodlBrosChatTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE1B0A2267FED7B0034C245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB00FCC288E099E802C7351E /* Pods_HodlBrosChat_HodlBrosChatUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1F30D35D08EA1D341E1AB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A4411D4007C1525B2C9F241 /* Pods-HodlBrosChat.debug.xcconfig */,
+				BE5DA2AD67445A20F5B6110C /* Pods-HodlBrosChat.release.xcconfig */,
+				A889CC88EABF606C6C94FEF6 /* Pods-HodlBrosChat-HodlBrosChatUITests.debug.xcconfig */,
+				100F4EE53874D9DCA0761A99 /* Pods-HodlBrosChat-HodlBrosChatUITests.release.xcconfig */,
+				CA38E5604015943973E9F9FB /* Pods-HodlBrosChatTests.debug.xcconfig */,
+				E7AC27B8FF77919E8AEC9D56 /* Pods-HodlBrosChatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		24F15DC13FCD2495AF7EC181 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17D45871BBAA5CF8D52549AC /* Pods_HodlBrosChat.framework */,
+				74B3782AB50E23A2935DB2E6 /* Pods_HodlBrosChat_HodlBrosChatUITests.framework */,
+				A661EF3A57BCEC2D84E95CC9 /* Pods_HodlBrosChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B67971F268429BB001A18FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B67972426842A2C001A18FD /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B679720268429C3001A18FD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2B679721268429CC001A18FD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2B67972926842CC5001A18FD /* CustomTextField.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2B67972326842A1C001A18FD /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		2B67972426842A2C001A18FD /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				2B67972526842A76001A18FD /* LoginView.swift */,
+				2B67972726842C62001A18FD /* RegistrationView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		2BE1B080267FED770034C245 = {
+			isa = PBXGroup;
+			children = (
+				2BE1B08B267FED770034C245 /* HodlBrosChat */,
+				2BE1B09D267FED7B0034C245 /* HodlBrosChatTests */,
+				2BE1B0A8267FED7B0034C245 /* HodlBrosChatUITests */,
+				2BE1B08A267FED770034C245 /* Products */,
+				0A1F30D35D08EA1D341E1AB3 /* Pods */,
+				24F15DC13FCD2495AF7EC181 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BE1B08A267FED770034C245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE1B089267FED770034C245 /* HodlBrosChat.app */,
+				2BE1B09A267FED7B0034C245 /* HodlBrosChatTests.xctest */,
+				2BE1B0A5267FED7B0034C245 /* HodlBrosChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BE1B08B267FED770034C245 /* HodlBrosChat */ = {
+			isa = PBXGroup;
+			children = (
+				2B67972B26842EE7001A18FD /* GoogleService-Info.plist */,
+				2B67972326842A1C001A18FD /* API */,
+				2B679721268429CC001A18FD /* Utils */,
+				2B679720268429C3001A18FD /* ViewModels */,
+				2B67971F268429BB001A18FD /* Views */,
+				2BE1B08C267FED770034C245 /* HodlBrosChatApp.swift */,
+				2BE1B08E267FED770034C245 /* ContentView.swift */,
+				2BE1B090267FED7B0034C245 /* Assets.xcassets */,
+				2BE1B095267FED7B0034C245 /* Info.plist */,
+				2BE1B092267FED7B0034C245 /* Preview Content */,
+			);
+			path = HodlBrosChat;
+			sourceTree = "<group>";
+		};
+		2BE1B092267FED7B0034C245 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2BE1B093267FED7B0034C245 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BE1B09D267FED7B0034C245 /* HodlBrosChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BE1B09E267FED7B0034C245 /* HodlBrosChatTests.swift */,
+				2BE1B0A0267FED7B0034C245 /* Info.plist */,
+			);
+			path = HodlBrosChatTests;
+			sourceTree = "<group>";
+		};
+		2BE1B0A8267FED7B0034C245 /* HodlBrosChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BE1B0A9267FED7B0034C245 /* HodlBrosChatUITests.swift */,
+				2BE1B0AB267FED7B0034C245 /* Info.plist */,
+			);
+			path = HodlBrosChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BE1B088267FED770034C245 /* HodlBrosChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE1B0AE267FED7B0034C245 /* Build configuration list for PBXNativeTarget "HodlBrosChat" */;
+			buildPhases = (
+				FA2B6CE8B225DC280D289F2D /* [CP] Check Pods Manifest.lock */,
+				2BE1B085267FED770034C245 /* Sources */,
+				2BE1B086267FED770034C245 /* Frameworks */,
+				2BE1B087267FED770034C245 /* Resources */,
+				CEB48370933B62D978E994A4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HodlBrosChat;
+			productName = HodlBrosChat;
+			productReference = 2BE1B089267FED770034C245 /* HodlBrosChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BE1B099267FED7B0034C245 /* HodlBrosChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE1B0B1267FED7B0034C245 /* Build configuration list for PBXNativeTarget "HodlBrosChatTests" */;
+			buildPhases = (
+				417C751923DF976F687E541F /* [CP] Check Pods Manifest.lock */,
+				2BE1B096267FED7B0034C245 /* Sources */,
+				2BE1B097267FED7B0034C245 /* Frameworks */,
+				2BE1B098267FED7B0034C245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BE1B09C267FED7B0034C245 /* PBXTargetDependency */,
+			);
+			name = HodlBrosChatTests;
+			productName = HodlBrosChatTests;
+			productReference = 2BE1B09A267FED7B0034C245 /* HodlBrosChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BE1B0A4267FED7B0034C245 /* HodlBrosChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE1B0B4267FED7B0034C245 /* Build configuration list for PBXNativeTarget "HodlBrosChatUITests" */;
+			buildPhases = (
+				01A6EC43996D0E32937F9E03 /* [CP] Check Pods Manifest.lock */,
+				2BE1B0A1267FED7B0034C245 /* Sources */,
+				2BE1B0A2267FED7B0034C245 /* Frameworks */,
+				2BE1B0A3267FED7B0034C245 /* Resources */,
+				8F2397C9405AA098EDA20730 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BE1B0A7267FED7B0034C245 /* PBXTargetDependency */,
+			);
+			name = HodlBrosChatUITests;
+			productName = HodlBrosChatUITests;
+			productReference = 2BE1B0A5267FED7B0034C245 /* HodlBrosChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE1B081267FED770034C245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2BE1B088267FED770034C245 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					2BE1B099267FED7B0034C245 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 2BE1B088267FED770034C245;
+					};
+					2BE1B0A4267FED7B0034C245 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 2BE1B088267FED770034C245;
+					};
+				};
+			};
+			buildConfigurationList = 2BE1B084267FED770034C245 /* Build configuration list for PBXProject "HodlBrosChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BE1B080267FED770034C245;
+			productRefGroup = 2BE1B08A267FED770034C245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BE1B088267FED770034C245 /* HodlBrosChat */,
+				2BE1B099267FED7B0034C245 /* HodlBrosChatTests */,
+				2BE1B0A4267FED7B0034C245 /* HodlBrosChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BE1B087267FED770034C245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE1B094267FED7B0034C245 /* Preview Assets.xcassets in Resources */,
+				2BE1B091267FED7B0034C245 /* Assets.xcassets in Resources */,
+				2B67972C26842EE7001A18FD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE1B098267FED7B0034C245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE1B0A3267FED7B0034C245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01A6EC43996D0E32937F9E03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HodlBrosChat-HodlBrosChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		417C751923DF976F687E541F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HodlBrosChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F2397C9405AA098EDA20730 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HodlBrosChat-HodlBrosChatUITests/Pods-HodlBrosChat-HodlBrosChatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HodlBrosChat-HodlBrosChatUITests/Pods-HodlBrosChat-HodlBrosChatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HodlBrosChat-HodlBrosChatUITests/Pods-HodlBrosChat-HodlBrosChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEB48370933B62D978E994A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HodlBrosChat/Pods-HodlBrosChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HodlBrosChat/Pods-HodlBrosChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HodlBrosChat/Pods-HodlBrosChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA2B6CE8B225DC280D289F2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HodlBrosChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE1B085267FED770034C245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B67972626842A76001A18FD /* LoginView.swift in Sources */,
+				2BE1B08F267FED770034C245 /* ContentView.swift in Sources */,
+				2BE1B08D267FED770034C245 /* HodlBrosChatApp.swift in Sources */,
+				2B67972826842C62001A18FD /* RegistrationView.swift in Sources */,
+				2B67972A26842CC5001A18FD /* CustomTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE1B096267FED7B0034C245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE1B09F267FED7B0034C245 /* HodlBrosChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE1B0A1267FED7B0034C245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE1B0AA267FED7B0034C245 /* HodlBrosChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BE1B09C267FED7B0034C245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE1B088267FED770034C245 /* HodlBrosChat */;
+			targetProxy = 2BE1B09B267FED7B0034C245 /* PBXContainerItemProxy */;
+		};
+		2BE1B0A7267FED7B0034C245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE1B088267FED770034C245 /* HodlBrosChat */;
+			targetProxy = 2BE1B0A6267FED7B0034C245 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BE1B0AC267FED7B0034C245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BE1B0AD267FED7B0034C245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BE1B0AF267FED7B0034C245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4411D4007C1525B2C9F241 /* Pods-HodlBrosChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HodlBrosChat/Preview Content\"";
+				DEVELOPMENT_TEAM = 4WM9UX6U5H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HodlBrosChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.001;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewwhite40.HodlBrosChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BE1B0B0267FED7B0034C245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5DA2AD67445A20F5B6110C /* Pods-HodlBrosChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HodlBrosChat/Preview Content\"";
+				DEVELOPMENT_TEAM = 4WM9UX6U5H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HodlBrosChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.001;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewwhite40.HodlBrosChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BE1B0B2267FED7B0034C245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA38E5604015943973E9F9FB /* Pods-HodlBrosChatTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WM9UX6U5H;
+				INFOPLIST_FILE = HodlBrosChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewwhite40.HodlBrosChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HodlBrosChat.app/HodlBrosChat";
+			};
+			name = Debug;
+		};
+		2BE1B0B3267FED7B0034C245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7AC27B8FF77919E8AEC9D56 /* Pods-HodlBrosChatTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WM9UX6U5H;
+				INFOPLIST_FILE = HodlBrosChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewwhite40.HodlBrosChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HodlBrosChat.app/HodlBrosChat";
+			};
+			name = Release;
+		};
+		2BE1B0B5267FED7B0034C245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A889CC88EABF606C6C94FEF6 /* Pods-HodlBrosChat-HodlBrosChatUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WM9UX6U5H;
+				INFOPLIST_FILE = HodlBrosChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewwhite40.HodlBrosChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HodlBrosChat;
+			};
+			name = Debug;
+		};
+		2BE1B0B6267FED7B0034C245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 100F4EE53874D9DCA0761A99 /* Pods-HodlBrosChat-HodlBrosChatUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WM9UX6U5H;
+				INFOPLIST_FILE = HodlBrosChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewwhite40.HodlBrosChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HodlBrosChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE1B084267FED770034C245 /* Build configuration list for PBXProject "HodlBrosChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE1B0AC267FED7B0034C245 /* Debug */,
+				2BE1B0AD267FED7B0034C245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE1B0AE267FED7B0034C245 /* Build configuration list for PBXNativeTarget "HodlBrosChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE1B0AF267FED7B0034C245 /* Debug */,
+				2BE1B0B0267FED7B0034C245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE1B0B1267FED7B0034C245 /* Build configuration list for PBXNativeTarget "HodlBrosChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE1B0B2267FED7B0034C245 /* Debug */,
+				2BE1B0B3267FED7B0034C245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE1B0B4267FED7B0034C245 /* Build configuration list for PBXNativeTarget "HodlBrosChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE1B0B5267FED7B0034C245 /* Debug */,
+				2BE1B0B6267FED7B0034C245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BE1B081267FED770034C245 /* Project object */;
+}
